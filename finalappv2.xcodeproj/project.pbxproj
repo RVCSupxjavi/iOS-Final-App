@@ -11,12 +11,12 @@
 		B29B0DB42763406B00245E28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B0DB32763406B00245E28 /* SceneDelegate.swift */; };
 		B29B0DB62763406B00245E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B0DB52763406B00245E28 /* ViewController.swift */; };
 		B29B0DB92763406B00245E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29B0DB72763406B00245E28 /* Main.storyboard */; };
-		B29B0DBC2763406B00245E28 /* finalappv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B29B0DBA2763406B00245E28 /* finalappv2.xcdatamodeld */; };
 		B29B0DBE2763406D00245E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29B0DBD2763406D00245E28 /* Assets.xcassets */; };
 		B29B0DC12763406D00245E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29B0DBF2763406D00245E28 /* LaunchScreen.storyboard */; };
 		B29B0DCC2763406D00245E28 /* finalappv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B0DCB2763406D00245E28 /* finalappv2Tests.swift */; };
 		B29B0DD62763406D00245E28 /* finalappv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B0DD52763406D00245E28 /* finalappv2UITests.swift */; };
 		B29B0DD82763406D00245E28 /* finalappv2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29B0DD72763406D00245E28 /* finalappv2UITestsLaunchTests.swift */; };
+		B29B0DE527655D3D00245E28 /* soleologystatic.png in Resources */ = {isa = PBXBuildFile; fileRef = B29B0DE427655D3D00245E28 /* soleologystatic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		B29B0DB32763406B00245E28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B29B0DB52763406B00245E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B29B0DB82763406B00245E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B29B0DBB2763406B00245E28 /* finalappv2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalappv2.xcdatamodel; sourceTree = "<group>"; };
 		B29B0DBD2763406D00245E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B29B0DC02763406D00245E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B29B0DC22763406D00245E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		B29B0DD12763406D00245E28 /* finalappv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalappv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29B0DD52763406D00245E28 /* finalappv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalappv2UITests.swift; sourceTree = "<group>"; };
 		B29B0DD72763406D00245E28 /* finalappv2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalappv2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B29B0DE427655D3D00245E28 /* soleologystatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soleologystatic.png; path = ../../../Downloads/soleologystatic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +101,7 @@
 		B29B0DB02763406B00245E28 /* finalappv2 */ = {
 			isa = PBXGroup;
 			children = (
+				B29B0DE427655D3D00245E28 /* soleologystatic.png */,
 				B29B0DB12763406B00245E28 /* AppDelegate.swift */,
 				B29B0DB32763406B00245E28 /* SceneDelegate.swift */,
 				B29B0DB52763406B00245E28 /* ViewController.swift */,
@@ -108,7 +109,6 @@
 				B29B0DBD2763406D00245E28 /* Assets.xcassets */,
 				B29B0DBF2763406D00245E28 /* LaunchScreen.storyboard */,
 				B29B0DC22763406D00245E28 /* Info.plist */,
-				B29B0DBA2763406B00245E28 /* finalappv2.xcdatamodeld */,
 			);
 			path = finalappv2;
 			sourceTree = "<group>";
@@ -237,6 +237,7 @@
 				B29B0DC12763406D00245E28 /* LaunchScreen.storyboard in Resources */,
 				B29B0DBE2763406D00245E28 /* Assets.xcassets in Resources */,
 				B29B0DB92763406B00245E28 /* Main.storyboard in Resources */,
+				B29B0DE527655D3D00245E28 /* soleologystatic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +264,6 @@
 			files = (
 				B29B0DB62763406B00245E28 /* ViewController.swift in Sources */,
 				B29B0DB22763406B00245E28 /* AppDelegate.swift in Sources */,
-				B29B0DBC2763406B00245E28 /* finalappv2.xcdatamodeld in Sources */,
 				B29B0DB42763406B00245E28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +448,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +476,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -622,19 +624,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B29B0DBA2763406B00245E28 /* finalappv2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B29B0DBB2763406B00245E28 /* finalappv2.xcdatamodel */,
-			);
-			currentVersion = B29B0DBB2763406B00245E28 /* finalappv2.xcdatamodel */;
-			path = finalappv2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B29B0DA62763406B00245E28 /* Project object */;
 }
